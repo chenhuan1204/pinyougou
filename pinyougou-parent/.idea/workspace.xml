@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b6b11038-49f7-4069-bb54-81b40957da84" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="E:\Program Files (x86)\repository_pinyougou" />
+        <option name="mavenHome" value="E:/Program Files (x86)/apache-maven-3.6.3" />
+        <option name="userSettingsFile" value="E:\Program Files (x86)\apache-maven-3.6.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="vmOptions" value="-DarchetypeCatalog=internal" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1ZLOi6DdcD5PJvNjfkl6muibSJY" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/pinyougou-shop-web/src/main/webapp/js/service" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.pinyougou.shop.controller" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\javaprogram\pinyougou\pinyougou-parent\pinyougou-shop-web\src\main\webapp\js\service" />
+      <recent name="D:\javaprogram\pinyougou\pinyougou-parent\pinyougou-shop-web\src\main\webapp\js\controller" />
+      <recent name="D:\javaprogram\pinyougou\pinyougou-parent\pinyougou-shop-web\src\main\resources\config" />
+      <recent name="D:\javaprogram\pinyougou\pinyougou-parent\pinyougou-common\src\main\java\util" />
+      <recent name="D:\javaprogram\pinyougou\pinyougou-parent\pinyougou-shop-web\src\main\resources\spring" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b6b11038-49f7-4069-bb54-81b40957da84" name="Default Changelist" comment="" />
+      <created>1584615033137</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1584615033137</updated>
+      <workItem from="1584615044248" duration="3964000" />
+      <workItem from="1584619232203" duration="207000" />
+      <workItem from="1584619472217" duration="224000" />
+      <workItem from="1584619727596" duration="759000" />
+      <workItem from="1584620525815" duration="1399000" />
+      <workItem from="1584698106562" duration="1242000" />
+      <workItem from="1584753799659" duration="10013000" />
+      <workItem from="1585221931068" duration="1236000" />
+      <workItem from="1585394180126" duration="5404000" />
+      <workItem from="1585482367117" duration="6763000" />
+      <workItem from="1585489347501" duration="4286000" />
+      <workItem from="1585622846066" duration="7871000" />
+      <workItem from="1585630930200" duration="3666000" />
+      <workItem from="1586401946738" duration="6196000" />
+      <workItem from="1586427187377" duration="2972000" />
+      <workItem from="1586437850556" duration="1188000" />
+      <workItem from="1586514180274" duration="14578000" />
+      <workItem from="1586602676868" duration="11801000" />
+      <workItem from="1589252035099" duration="2281000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+</project>
