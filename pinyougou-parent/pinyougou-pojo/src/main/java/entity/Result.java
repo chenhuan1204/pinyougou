@@ -1,33 +1,33 @@
 package entity;
+
 import java.io.Serializable;
+
 /**
- * 返回结果封装
- * @author Administrator
+ * 用于向页面传递信息的类
+ * @author jt
  *
  */
 public class Result implements Serializable{
-    private boolean success;
-    private String message;
-    public Result(boolean success, String message) {
-        super();
-        this.success = success;
-        this.message = message;
-    }
-    //getter and setter.....
-
-    public boolean isSuccess() {
-        return success;
-    }
-
-    public void setSuccess(boolean success) {
-        this.success = success;
-    }
-
-    public String getMessage() {
-        return message;
-    }
-
-    public void setMessage(String message) {
-        this.message = message;
-    }
+	private boolean flag;
+	private String message;
+	
+	public Result(boolean flag, String message) {
+		super();
+		this.flag = flag;
+		this.message = message;
+	}
+	public boolean isFlag() {
+		return flag;
+	}
+	public void setFlag(boolean flag) {
+		this.flag = flag;
+	}
+	public String getMessage() {
+		return message;
+	}
+	public void setMessage(String message) {
+		this.message = message;
+	}
+	
+	
 }

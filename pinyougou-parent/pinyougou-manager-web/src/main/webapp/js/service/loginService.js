@@ -1,7 +1,8 @@
-app.service('loginService', function ($http) {
-
-    //获取登录用户名
-    this.showName = function () {
-        return $http.get('../login/showName.do');
-    }
+app.service('loginService',function($http){
+	
+	this.loginName=function(){
+		return $http.get('../login/name.do');
+	}
+	
+	
 });

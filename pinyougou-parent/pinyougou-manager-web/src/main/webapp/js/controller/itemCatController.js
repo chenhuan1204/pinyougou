@@ -37,14 +37,13 @@ app.controller('itemCatController' ,function($scope,$controller   ,itemCatServic
 		if($scope.entity.id!=null){//如果有ID
 			serviceObject=itemCatService.update( $scope.entity ); //修改  
 		}else{
-			$scope.entity.parentId=$scope.parentId;//赋予上级ID
 			serviceObject=itemCatService.add( $scope.entity  );//增加 
 		}				
 		serviceObject.success(
 			function(response){
 				if(response.success){
 					//重新查询 
-					$scope.findByParentId($scope.parentId);//重新加载
+		        	$scope.reloadList();//重新加载
 				}else{
 					alert(response.message);
 				}
@@ -77,36 +76,43 @@ app.controller('itemCatController' ,function($scope,$controller   ,itemCatServic
 			}			
 		);
 	}
-	$scope.parentId=0;//上级ID
-	//根据上级ID显示下级列表
+    
+	//根据上级分类ID查询列表
 	$scope.findByParentId=function(parentId){
-		$scope.parentId=parentId;//记住上级ID
 		itemCatService.findByParentId(parentId).success(
 			function(response){
-				$scope.list=response;
+				$scope.list=response;				
 			}
-		);
+		);		
 	}
-	//面包屑
-	$scope.grade=1;//默认为1级
-	//设置级别
+	
+	$scope.grade=1;//当前级别
+	//设置级别 
 	$scope.setGrade=function(value){
 		$scope.grade=value;
 	}
-	//读取列表
+	
+	
 	$scope.selectList=function(p_entity){
-		if($scope.grade==1){//如果为1级
+		//alert($scope.grade);
+		
+		if($scope.grade==1){
 			$scope.entity_1=null;
 			$scope.entity_2=null;
 		}
-		if($scope.grade==2){//如果为2级
+		if($scope.grade==2){
+			
 			$scope.entity_1=p_entity;
 			$scope.entity_2=null;
 		}
-		if($scope.grade==3){//如果为3级
+		if($scope.grade==3){
 			$scope.entity_2=p_entity;
 		}
-		$scope.findByParentId(p_entity.id);	//查询此级下级列表
+		
+		$scope.findByParentId(p_entity.id);
+		
 	}
-
+	
+	
+	
 });	
