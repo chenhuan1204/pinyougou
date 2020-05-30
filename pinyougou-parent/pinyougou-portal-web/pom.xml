@@ -8,7 +8,7 @@
   <artifactId>pinyougou-portal-web</artifactId>
   <packaging>war</packaging>
   
-  
+    
    <dependencies>
     <!-- Spring -->
 	<dependency>
@@ -77,9 +77,9 @@
 		<artifactId>servlet-api</artifactId>		
 		<scope>provided</scope>
 	</dependency>
-
-
-
+	
+	
+	
 	<dependency>
 		<groupId>com.pinyougou</groupId>
 		<artifactId>pinyougou-common</artifactId>
@@ -108,5 +108,4 @@
 	  	  </plugin>
 	  </plugins>  
     </build>
-  
 </project>
